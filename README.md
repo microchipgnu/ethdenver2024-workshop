@@ -26,15 +26,11 @@ Go to https://bun.sh/docs/installation#installing to see how to install in diffe
 
 ### 2. Create a NEAR Account
 
-NEAR Protocol 
+#### 2.1 Go to [My NEAR Wallet](https://testnet.mynearwallet.com/) and create an account
 
-#### 2.1 Go to [Mintbase Wallet](https://wallet.mintbase.xyz)
+#### 2.2 Fund your account at https://near-faucet.io
 
-#### 2.2 Create a new private key
-
-#### 2.3 Add private key to your account
-
-https://wallet.mintbase.xyz/import/private-key#%7BaccountID%7D/%7BprivateKey%7D
+#### 2.3 Export your private key [My NEAR Wallet](https://testnet.mynearwallet.com/profile)
 
 ### 3. Get your Autonomous Wallet
 
@@ -49,6 +45,14 @@ bun i
 ```
 
 #### 3.2 Setup .env
+
+```sh
+OPENAI_API_BASE=http://127.0.0.1:11434/v1
+OPENAI_API_KEY=ollama-no-need-api-key
+    
+NEAR_ACCOUNT_ID=<YOUR_ACCOUNT_ID>
+NEAR_ACCOUNT_FULL_ACCESS_KEY=<YOUR_PRIVATE_KEY>
+```
 
 #### 3.3 Run your autonomous wallet
 
