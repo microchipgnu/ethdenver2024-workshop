@@ -30,6 +30,12 @@ NEAR Protocol
 
 #### 2.1 Go to [Mintbase Wallet](https://wallet.mintbase.xyz)
 
+#### 2.2 Create a new private key
+
+#### 2.3 Add private key to your account
+
+https://wallet.mintbase.xyz/import/private-key#%7BaccountID%7D/%7BprivateKey%7D
+
 ### 3. Get your Autonomous Wallet
 
 #### 3.1 Fork the [NEAR Autonomous Wallet](https://github.com/microchipgnu/near-autonomous-wallet) repo
