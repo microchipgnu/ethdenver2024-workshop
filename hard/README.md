@@ -59,7 +59,12 @@ The NEAR Autonomous Wallet leverages AI agents for advanced wallet functionaliti
 
 #### 3.1 Fork the Repository
 
-- Fork the [NEAR Autonomous Wallet](https://github.com/microchipgnu/near-autonomous-wallet) repository from GitHub.
+- Clone the [NEAR Autonomous Wallet](https://github.com/microchipgnu/near-autonomous-wallet/) repository from GitHub from the `main` branch
+
+```sh
+git clone https://github.com/microchipgnu/near-autonomous-wallet.git
+```
+
 
 #### 3.2 Project Installation
 
